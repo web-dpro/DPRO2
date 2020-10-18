@@ -8,9 +8,90 @@
 /*--- Client List --*/
       /*isi*/
 /*--- End Client List --*/ 
-/*--- what we do --*/
-        /*isi*/
-/*--- end what we do --*/
+/*--- OUR COMPANY --*/
+ *{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #D3D3D3;
+	font-family: 'Baloo 2', cursive;
+	font-size: 14px;
+
+	
+}
+
+body h4{
+	font-family: 'Baloo 2', cursive;
+	font-size: 19px;
+}
+
+header {
+	margin-top: 0;
+	margin-bottom: 70px;
+
+}
+
+/*  ISI KONTEN */
+
+.container {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+	margin-left: 12px;
+	flex-wrap: wrap;
+	column-gap: 40px;
+}
+
+/*KOLOM*/
+
+.kolom {
+background: rgba(98,228,245,1);
+background: -moz-linear-gradient(-45deg, rgba(98,228,245,1) 19%, rgba(88,201,239,1) 33%, rgba(51,106,217,1) 83%, rgba(39,73,209,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(19%, rgba(98,228,245,1)), color-stop(33%, rgba(88,201,239,1)), color-stop(83%, rgba(51,106,217,1)), color-stop(100%, rgba(39,73,209,1)));
+background: -webkit-linear-gradient(-45deg, rgba(98,228,245,1) 19%, rgba(88,201,239,1) 33%, rgba(51,106,217,1) 83%, rgba(39,73,209,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(98,228,245,1) 19%, rgba(88,201,239,1) 33%, rgba(51,106,217,1) 83%, rgba(39,73,209,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(98,228,245,1) 19%, rgba(88,201,239,1) 33%, rgba(51,106,217,1) 83%, rgba(39,73,209,1) 100%);
+background: linear-gradient(135deg, rgba(98,228,245,1) 19%, rgba(88,201,239,1) 33%, rgba(51,106,217,1) 83%, rgba(39,73,209,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62e4f5', endColorstr='#2749d1', GradientType=1 );
+	align-items: center;
+	border-radius: 10px;
+	background-color: #eaea;
+	justify-content: center;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 100px;
+	width: 25%;
+	text-decoration-line: none;
+}
+
+.kolom img {
+	margin-top: -70px;
+	height: 130px
+
+}
+
+.kolom:hover{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+/* TULISAN2 CANTIK */
+
+
+a {
+	text-decoration-color: none;
+	text-decoration-line: none;
+	text-decoration-style: none;
+	color :#fff;
+}
+
+h4 {
+	color:#000;
+	font-family: 'ballio';
+}
+/*--- OUR COMPANY --*/
 
 /*---- footer-----*/
 body {
