@@ -79,7 +79,7 @@ var chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
 }) 
 var convo = {
   pembuka: {
-    says: ["Hi", "Saya adalah personal assistant yang akan membantu anda selama di chat ini, apa yang ingin anda ketahui?"],
+    says: ["Hi", "ada yang bisa kami bantu?"],
     reply: [
       {
         question: "Our Services",
@@ -92,6 +92,14 @@ var convo = {
       {
         question: "visi dan misi Dpro",
         answer: "visimisi"
+      },
+      {
+        question: "kontak kami",
+        answer: "kontak"
+      },
+      {
+        question: "alamat kami",
+        answer: "alamat"
       },
       {
         question: "Tidak, Terimakasih",
@@ -132,6 +140,30 @@ var convo = {
     says: [
       "<img src=image/dprojakarta.jpg />",
       "To be the leading company that offers the most creative,exceptional and unforgettable event to the entire Indonesia.."
+    ],
+    reply: [
+      {
+        question: "Start Over",
+        answer: "pembuka"
+      }
+    ]
+  },
+  "kontak": {
+    says: [
+      "<a href='https://api.whatsapp.com/send?phone=6281287736864&text=halo&source=&data=' target='_blank'><img src='image/whatsapp2.png' width='10' height='90' style='cursor: pointer;'>",
+      "whatsapp"
+    ],
+    reply: [
+      {
+        question: "Start Over",
+        answer: "pembuka"
+      }
+    ]
+  },
+  "alamat": {
+    says: [
+      "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.992146639717!2d106.7961752!3d-6.2647621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1993758cc1b%3A0x1ddc3200b60cac57!2s77%2C%20Jl.%20RS.%20Fatmawati%20Raya%20No.A-15%2C%20RT.2%2FRW.5%2C%20Cipete%20Utara%2C%20Kec.%20Kby.%20Baru%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012410!5e0!3m2!1sid!2sid!4v1603424954827!5m2!1sid!2sid' width='200' height='200' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>",
+      "Graha Mas Fatmawati, Blok A.15 Kav.77 Cipete Utara, Kebayoran Baru, Jakarta Selatan 12150"
     ],
     reply: [
       {
