@@ -27,7 +27,7 @@ else {
         transition: all .08s linear;
         position: fixed;
         bottom: 0px;
-        left: 0px;
+        right: 0px;
         margin: 16px;
         display: flex;
         flex-direction: column;
@@ -75,7 +75,7 @@ else {
         height: ${config.height || '500px'};
         width: ${config.width || '320px'};
         transition: all .25s ease;
-        float: left;
+        float: right;
         opacity: 1
     }
 
