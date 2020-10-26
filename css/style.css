@@ -31,7 +31,6 @@ header {
 }
 
 
-/*  ISI KONTEN */
 
 .container {
 	padding: 10px;
@@ -40,6 +39,21 @@ header {
 	align-items: center;
 	width: 900px;
 	margin-left: 100px;
+	flex-wrap: wrap;
+	width: 60%;
+
+	column-gap: 40px;
+}
+
+/*  ISI KONTEN */
+
+.kontener {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 900px;
+	margin-left: 2px;
 	flex-wrap: wrap;
 	column-gap: 40px;
 }
@@ -105,12 +119,16 @@ h4 {
 #clientlist
 {
 	margin: auto;
-	padding: 130px;
+	padding: 370px;
+	background-position: center;
+	
+	
 }
 
 #clientlist .gambarclientlist
 {
 	border: 3px solid #0072bc;
+	justify-content: center;
 }
 
 /*---- end client list-----*/
@@ -134,7 +152,8 @@ h4 {
     margin-bottom: 40px;
  }
  footer {
-        color: grey;
+		color: grey;
+
  }
  footer p, a {
 font-size: 12px;
@@ -218,3 +237,21 @@ border-right: 1px solid grey;
 height: 100%;
 }
 /*---end footer----*/
+
+
+@media only screen and (max-width:800px) {
+	/* For tablets: */
+	.gambarclientlist {
+	  width: 80%;
+	  padding: 0;
+	}
+	.container {
+	  width: 100%;
+	}
+  }
+  @media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.menu, .gambarclientlist, .container {
+	  width: 100%;
+	}
+  }
