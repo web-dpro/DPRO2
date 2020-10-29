@@ -17,14 +17,14 @@
   <link href="vendor/bootstrap/jquery/jquery.js" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
 
 
   <!-- Navigation Header -->
-  <div id="header">
+  <!-- <div id="header">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="image/dprojakarta.jpg" alt="Logo" height="50px" width="60px"></a>
@@ -57,9 +57,33 @@
       </div>
     </div>
   </div>
+  </nav> -->
+
+<header>
+  <a href="#" class="logo">Logo</a>
+  <div class="menu-toggle"></div>
+  <nav>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#history">Company History</a></li>
+      <li><a href="#meetourteam">Meet Our Team</a></li>
+      <li><a href="#clientlist">Client List</a></li>
+      <li><a href="#ourcompany">Our Company Group</a></li>
+    </ul>
   </nav>
+  <div class="clearfix"></div>
+</header>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.menu-toggle').click(function(){
+      $('.menu-toggle').toggleClass('active')
+      $('nav').toggleClass('active')
+    })
+  })
+</script>
+
   <!-- End -->
-<br><br><br>
 <section id="home" class="slider_area"> 
             <div id="carouselThree" class="carousel slide" data-ride="carousel"> 
                 <ol class="carousel-indicators"> 
