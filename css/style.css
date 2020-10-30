@@ -1,5 +1,5 @@
 /*-- Navigation Header --*/
-header {
+/*header {
 	position: relative;
 	margin: 20px;
 	padding: 10px;
@@ -7,7 +7,7 @@ header {
 	box-sizing: border-box;
 	border-radius: 4px;
 	box-shadow: 0 2px 5px rgba(0,0,0, .2);
-}
+}*/
 
 .logo {
 	color: #069370;
@@ -50,7 +50,7 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-	background: #069370;
+	background: #1763AE;
 	color: #fff;
 	transition: 0.5s;
 }
