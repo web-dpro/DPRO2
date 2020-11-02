@@ -204,12 +204,61 @@ h4 {
 	font-family: 'ballio';
 }
 
-/*---- company history-----*/
-#history
-{
-	height: 950px;
+/* ABOUT DPRO */
+.gallery-section{
+	width: 100%;
+	padding: 60px 0;
+    display: block; 
+    background-image: url(image/about.png);
+    text-decoration: none;  
+    font-family: Arial, Helvetica, sans-serif;  
+    font-weight: bold; 
 }
-/*---- end company history-----*/
+  
+  .ainner-width{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 20px;
+  }
+  
+  .gallery-section h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+  }
+  
+  .aborder{
+	width: 180px;
+	height: 4px;
+	background: #333;
+	margin: 60px auto;
+  }
+  
+  .gallery-section .gallery{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+  }
+  
+  .gallery-section .image{
+	flex: 25%;
+	overflow: hidden;
+	cursor: pointer;
+  }
+  
+  .gallery-section .image img{
+	width: 100%;
+	height: 100%;
+	transition: 0.4s;
+  }
+  
+  .gallery-section .image:hover img{
+	transform: scale(1.4) rotate(15deg);
+  }
+
+
+/*END ABOUT DPRO*/
 
 /*---- client list-----*/
 #clientlist
