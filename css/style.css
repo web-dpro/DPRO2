@@ -126,6 +126,8 @@ header {
 
 }
 
+
+
 .container {
 	padding: 10px;
 	display: flex;
@@ -151,6 +153,8 @@ header {
 	flex-wrap: wrap;
 	column-gap: 40px;
 }
+
+
 
 
 /*KOLOM*/
@@ -185,74 +189,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62e4f5', end
 	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
-/* ABOUT DPRO */
-.gallery-section{
-	width: 100%;
-	padding: 60px 0;
-	background: #f1f1f1;
-  }
-  
-  .inner-width{
-	width: 100%;
-	max-width: 1200px;
-	margin: auto;
-	padding: 0 20px;
-  }
-  
-  .gallery-section h1{
-	text-align: center;
-	text-transform: uppercase;
-	color: #333;
-  }
-  
-  .border{
-	width: 180px;
-	height: 4px;
-	background: #333;
-	margin: 60px auto;
-  }
-  
-  .gallery-section .gallery{
-	display: flex;
-	flex-wrap: wrap-reverse;
-	justify-content: center;
-  }
-  
-  .gallery-section .image{
-	flex: 25%;
-	overflow: hidden;
-	cursor: pointer;
-  }
-  
-  .gallery-section .image img{
-	width: 100%;
-	height: 100%;
-	transition: 0.4s;
-  }
-  
-  .gallery-section .image:hover img{
-	transform: scale(1.4) rotate(15deg);
-  }
-  
-  @media screen and (max-width:960px) {
-	.gallery-section .image{
-	  flex: 33.33%;
-	}
-  }
-  
-  @media screen and (max-width:768px) {
-	.gallery-section .image{
-	  flex: 50%;
-	}
-  }
-  
-  @media screen and (max-width:480px) {
-	.gallery-section .image{
-	  flex: 100%;
-	}
-
-/*END ABOUT DPRO*/
-
 /* TULISAN2 CANTIK */
 
 
@@ -268,12 +204,21 @@ h4 {
 	font-family: 'ballio';
 }
 
+/*---- company history-----*/
+#history
+{
+	height: 950px;
+}
+/*---- end company history-----*/
+
 /*---- client list-----*/
 #clientlist
 {
 	margin: auto;
 	padding: 135px;
 	background-position: center;
+	
+	
 }
 
 #clientlist .gambarclientlist
