@@ -94,6 +94,25 @@ nav ul li a:hover {
 	}
 }
 
+/* hero imgae --*/
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+	height: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	opacity: .8;
+  }
+  
+  .hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+  }
 
 /*--- end navigation --*/
        /*isi*/
