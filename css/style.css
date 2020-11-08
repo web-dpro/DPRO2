@@ -311,10 +311,11 @@ h4 {
 	
 }
 
-#clientlist .gambarclientlist
+.client-area
 {
-	border: 3px solid #0072bc;
-	justify-content: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	position: relative;
 }
 
 /*---- end client list-----*/
