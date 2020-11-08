@@ -329,22 +329,6 @@ h4 {
 	
 	
 }
-
-.client-area
-{
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	position: relative;
-}
-.client-desc{
-	width: 100%;
-	max-width: 1200px;
-	margin: auto;
-	padding: 0 20px;
-	padding-top: 3rem;
-}
-
-
 /*---- end client list-----*/
 
 /*--- OUR COMPANY --*/
