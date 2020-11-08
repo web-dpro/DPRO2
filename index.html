@@ -85,7 +85,6 @@
 </script> -->
 
   <!-- End -->
-  <br><br><br><br>
 <!-- <section id="home" class="slider_area"> 
             <div id="carouselThree" class="carousel slide" data-ride="carousel"> 
                 <ol class="carousel-indicators"> 
@@ -117,14 +116,60 @@
                 <!-- <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">  <i class="lni lni-arrow-left"></i>  </a> 
                 <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">  <i class="lni lni-arrow-right"></i>  </a> 
             </div> -->
-            <div class="hero-image">
-              <img src="image/UNS_8414 copy.jpg" width="100%" height="635">
-              <div class="hero-text">
-                <h1 style="font-size:70px">Welcome to D'PRO JAKARTA</h1>
-                <h1>We Do. We Care. Excellent</h1>
-              </div>
-            </div>                      
-        </section>         
+  <div class="slideshow-container"> 
+    <div class="mySlides">       
+      <div class="hero-image">
+        <img src="image/UNS_8414 copy.jpg" width="100%">
+        <div class="hero-text">
+          <h1 style="font-size:50px">Welcome to D'PRO JAKARTA</h1>
+          <h5>We Do. We Care. Excellent</h5>
+        </div>
+      </div>
+    </div>
+    <div class="mySlides">       
+      <div class="hero-image ">
+        <img src="image/UNS_8333.jpg" width="100%">
+        <div class="hero-text">
+        <h1 style="font-size:50px">Let's be productive and pleasureable</h1>
+      </div>
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    
+  </div>
+  
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+  </script> 
+</section>         
   <!--end-->
 
 <!--====== ABOUT US START ======--> 
