@@ -444,12 +444,14 @@ footer {
   
   
   /* footer social icons */
-  
-  .social-network a.yt:hover {
-	background-color: #007bb7;
+  .social-network a.icoFacebook:hover {
+	background-color: #3b5998;
   }
-  .social-network a.Wa:hover {
-	background-color: #007bb7;
+  .social-network a.icoyt:hover {
+	background-color: white;
+  }
+  .social-network a.icoWa:hover {
+	background-color: green;
   }
   .social-network a.icoLinkedin:hover {
 	background-color: #007bb7;
