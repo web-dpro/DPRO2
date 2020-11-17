@@ -1,0 +1,59 @@
+.tentang{
+			
+	min-height: 800px;
+	background-color: #000000;
+}
+
+}
+.foto{
+	background-color:#2F4F4F;
+	min-height: 500px;
+}
+ 
+.service {
+	background-color: #2F4F4F;
+	min-height: 800px;
+}
+.footer{
+	background-color: #A9A9A9;
+	min-height: 20px;	
+}
+.contact{
+	background-color: #5F9EA0;
+	min-height: 60px;	
+}
+.box{
+	padding-left:30%;
+	padding-right:30%;
+	padding-top:30px;
+	position: relative;
+	
+}
+.kotak{
+	padding-left:0px;
+	padding-right:30%;
+	position: relative;
+	border:2px;
+}
+.kotak2{
+	padding-left:30%;
+	padding-right:0px;
+	position: relative;
+}
+h1{
+	position: relative;
+	font-size: 50px;
+	font-family: values;
+	color: #FF8C00;
+	padding-top: 30px;
+}
+.kolom:hover{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+}
+ /* slider */
