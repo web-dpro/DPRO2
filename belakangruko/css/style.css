@@ -1591,7 +1591,7 @@ text-align: center;
 }
 
 
-
+/*tools and price*/
 .clear, .group{display:block;}
 .clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
 .clear, .clear::after, .group, .group::after{clear:both;}
@@ -1599,7 +1599,7 @@ text-align: center;
 .diding.nospace{margin-bottom:0;}
 
  .satu{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
-.satu{width:31.28834355828221%;}
+.satu{width:31%;}
 
 
 .kotakprice{}
@@ -1611,8 +1611,8 @@ text-align: center;
 .kotakprice > li figure figcaption{display:block; position:absolute; bottom:0; width:100%; padding:15px;}
 .kotakprice > li figure a::after, .kotakprice > li figure figcaption{opacity:0;}
 .kotakprice > li figure:hover a::after, .kotakprice > li figure:hover figcaption{opacity:1;}
-.kotakprice > li figure figcaption *{margin:0;}
-.kotakprice > li figure .diding{margin-bottom:10px; font-size:1.2rem;}
+
+.kotakprice > li figure .diding{margin-bottom:10px; font-size:1.3rem;}
 .kotakprice > li figure a::after{background-color:rgba(0,0,0,.5);}
 .kotakprice > li figure figcaption{color:#FFFFFF;}
 
@@ -1620,7 +1620,7 @@ text-align: center;
 @media screen and (max-width:750px){
  .satu{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
 }
-
+/*end*/
 
  
  
