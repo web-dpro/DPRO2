@@ -1592,7 +1592,34 @@ text-align: center;
 
 
 
+.clear, .group{display:block;}
+.clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
+.clear, .clear::after, .group, .group::after{clear:both;}
 
+.diding.nospace{margin-bottom:0;}
+
+ .satu{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
+.satu{width:31.28834355828221%;}
+
+
+.kotakprice{}
+.kotakprice > li{margin-bottom:30px;}
+
+.kotakprice > li:nth-child(3n+1){margin-left:0; clear:left;}
+.kotakprice > li figure{position:relative; max-width:320px;}
+.kotakprice > li figure a::after{position:absolute; top:0; right:0; bottom:0; left:0; content:"";}
+.kotakprice > li figure figcaption{display:block; position:absolute; bottom:0; width:100%; padding:15px;}
+.kotakprice > li figure a::after, .kotakprice > li figure figcaption{opacity:0;}
+.kotakprice > li figure:hover a::after, .kotakprice > li figure:hover figcaption{opacity:1;}
+.kotakprice > li figure figcaption *{margin:0;}
+.kotakprice > li figure .diding{margin-bottom:10px; font-size:1.2rem;}
+.kotakprice > li figure a::after{background-color:rgba(0,0,0,.5);}
+.kotakprice > li figure figcaption{color:#FFFFFF;}
+
+
+@media screen and (max-width:750px){
+ .satu{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+}
 
 
  
