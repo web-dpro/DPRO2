@@ -1591,6 +1591,54 @@ text-align: center;
 }
 
 
+.welcome
+                              {
+                              animation: fadeIn 5s 1;
+                              }
+                              @keyframes fadeIn
+                              {
+                                 from
+                                 {
+                                    opacity: 0;
+                                 }
+                                 to
+                                 {
+                                    opacity: 1;
+                                 }
+                              }
+
+                   .welcome2
+                              {
+                              animation: fadein 5s 1;
+                              }
+                              @keyframes fadein
+                              {
+                                 from
+                                 {
+                                    opacity: 0;
+                                 }
+                                 to
+                                 {
+                                    opacity: 1;
+                                 }
+                              }
+                  .button_section
+                  {
+                              animation: fadein 5s 1;
+                              }
+                              @keyframes fadein
+                              {
+                                 from
+                                 {
+                                    opacity: 0;
+                                 }
+                                 to
+                                 {
+                                    opacity: 1;
+                                 }
+                              }
+
+
 /*tools and price*/
 .clear, .group{display:block;}
 .clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
