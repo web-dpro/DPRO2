@@ -171,6 +171,12 @@
      margin: 0;
      padding: 0;
 }
+.aborder{
+	width: 800px;
+	height: 4px;
+	background: #333;
+	margin: 20px auto;
+}
 /**-- heading section --**/
  .main_heading {
      text-align: center;
