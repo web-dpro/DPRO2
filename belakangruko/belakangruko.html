@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
 
       <link rel="shortcut icon" href="images/blakangruko2.png" type="image/png"> 
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <!-- mobile metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -36,11 +42,14 @@
    </head>
    <!-- body -->
    <body class="main-layout home_page">
-      <!-- loader  -->
+
+      <!-- loader  
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+         <div class="loader"><img src="images/loadingbrko2.gif" alt="#" /></div>
       </div>
+      -->
       <!-- end loader -->
+
       <!-- header -->
       <header>
          <!-- header inner -->
@@ -60,7 +69,7 @@
                            <nav class="main-menu">
                               <ul class="menu-area-main">
                                  
-                                 <!--<li class="active">--><li> <a href="#about">ABOUT</a> </li>
+                              <!-- <li class="active"> !--> <li> <a href="#about">ABOUT</a> </li>
                                  <li><a href="#toolsprice">TOOLS & PRICE</a></li>
                                  <li><a href="#service">SERVICE</a></li>
                                  <li><a href="#contact">CONTACT</a></li>                            
@@ -83,8 +92,8 @@
                   <img class="first-slide" src="images/a.jpg" style="height: 100%; width: 100%;" >
                   <div class="container">
                      <div class="carousel-caption relative">
-                        <h1>Welcome<br> To Blakang Ruko<br> Page!</h1>
-                        <p>Menyediakan & Melayani Sewa Kebutuhan Peralatan Entertainment </p>
+                        <h1 class="welcome">Welcome<br> To Blakang Ruko<br> Page!</h1>
+                        <p class="welcome2">Menyediakan & Melayani Sewa Kebutuhan Peralatan Entertainment </p>
                         <div class="button_section"> <a class="main_bt" href="../index.html">Dpro Jakarta</a>  </div>
                         <ul class="locat_icon">
                            <li> <a href="#"><img src="images/facebook.png"></a></li>
@@ -95,7 +104,54 @@
                      </div>
                   </div>
                </div>
-               
+               <style>
+                  .welcome
+                              {
+                              animation: fadeIn 5s 1;
+                              }
+                              @keyframes fadeIn
+                              {
+                                 from
+                                 {
+                                    opacity: 0;
+                                 }
+                                 to
+                                 {
+                                    opacity: 1;
+                                 }
+                              }
+
+                   .welcome2
+                              {
+                              animation: fadein 5s 1;
+                              }
+                              @keyframes fadein
+                              {
+                                 from
+                                 {
+                                    opacity: 0;
+                                 }
+                                 to
+                                 {
+                                    opacity: 1;
+                                 }
+                              }
+                  .button_section
+                  {
+                              animation: fadein 5s 1;
+                              }
+                              @keyframes fadein
+                              {
+                                 from
+                                 {
+                                    opacity: 0;
+                                 }
+                                 to
+                                 {
+                                    opacity: 1;
+                                 }
+                              }
+               </style>
             </div>
        
          </div>
@@ -107,8 +163,8 @@
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <div class="aboutheading">
-                     <h2>About <strong class="black">Us</strong></h2>
-                     <span>Kami Menyediakan & Melayani Sewa Kebutuhan Peralatan Entertainment</span>
+                     <h2 class="slidein from-left">About <strong class="black">Us</strong></h2>
+                     <span class="slide-in from-right">Kami Menyediakan & Melayani Sewa Kebutuhan Peralatan Entertainment</span>
                   </div>
                </div>
             </div>
@@ -381,6 +437,7 @@
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
+      <script src="js/observers.js"></script>
     
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
