@@ -1468,7 +1468,7 @@ ul.locat_icon li a{
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #b32137;
+     color: #0072bc;
      line-height: 50px;
 }
 
@@ -1525,7 +1525,7 @@ ul.locat_icon li a{
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #b32137;
+     color: #817677;
      line-height: 50px;
 }
  
@@ -1578,7 +1578,7 @@ ul.locat_icon li a{
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #b32137;
+     color: #0072bc;
      line-height: 50px;
 }
  
@@ -1669,7 +1669,7 @@ text-align: center;
 .kotakprice > li figure a::after, .kotakprice > li figure figcaption{opacity:0;}
 .kotakprice > li figure:hover a::after, .kotakprice > li figure:hover figcaption{opacity:1;}
 
-.kotakprice > li figure .diding{margin-bottom:10px; font-size:1.3rem;}
+.kotakprice > li figure .diding{margin-bottom:10px; font-size:1.1rem;}
 .kotakprice > li figure a::after{background-color:rgba(0,0,0,.5);}
 .kotakprice > li figure figcaption{color:#FFFFFF;}
 
