@@ -180,6 +180,7 @@ img {vertical-align: middle;}
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
+    font-family: "montserrat-bold", sans-serif;
   }
 /*--- end navigation --*/
        /*isi*/
@@ -313,7 +314,7 @@ h4 {
 }
   
 .gallery-section h1{
-	font-family: "montserrat-medium", sans-serif;
+	font-family: "montserrat-bold", sans-serif;
     font-size: 5rem;
     line-height: 1.25;
     color: white;
@@ -392,19 +393,24 @@ h4 {
 }
 .w3-wide{letter-spacing:4px}
 .w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+
+#ourcompany .kolom p
+{
+	font-family: "lora-regular", serif;
+}
+#ourcompany .kolom h4
+{
+	font-family: "montserrat", sans-serif;
+}
 /*--- END OUR COMPANY --*/
 
-
-/*---- footer-----*/
-
  /*FOOTER*/
-
 footer {
 	background: #16222A;
 	background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
 	background: linear-gradient(59deg, #3A6073, #16222A);
 	color: white;
-	margin-top:100px;
+	margin-top:0;
   }
   
   footer a {
@@ -428,7 +434,9 @@ footer {
 	padding-top: 2em;
 	color: white;
   }
-  
+  .footer-pad {
+	font-family: "montserrat-bold", sans-serif;
+  }
   
   /*İCONS*/
   
