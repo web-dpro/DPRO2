@@ -1,0 +1,207 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #4B0082;
+	font-family: 'Montserrat', sans-serif;
+}
+.atasan {
+	margin-top: -70px;
+	text-align: center;
+	background-color: #FFFAFA;
+	padding: 80px;
+
+}
+
+.navbar{
+	padding:15px;
+	text-align: center;
+	margin:50px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 350px;
+	height: 100px;
+	margin-top: -60px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+	box-shadow: 0 3px 20px rgba(0,0,0, 0.5)
+}
+.abaout {
+	padding: 15px;
+
+}
+
+.contact {
+	padding: 15px;
+}
+
+.talent {
+	padding: 15px;
+}
+
+#konten {
+	width: 100%;
+	height: 480px;
+	background-color: #4B0082;
+	padding: 30px;	
+}
+#konten img {
+	float: left;	
+}
+.tulisan{
+	background-color: #4B0082;
+	margin-right: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+	width: 650px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#konten h4 {
+	text-align: justify;
+	color: orange;
+	font-weight: bold;
+	font-size: 23;
+
+}
+
+#konten p {
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	color: #eaeaea;
+	
+}
+#konten h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	color: orange;
+}
+
+#container {
+	box-sizing: border-box;
+	padding: 30px;
+	justify-content: space-between;
+	margin:50px auto;
+	display: flex;
+	justify-content: center;
+	height: 340px;
+	background-color: #FFFAFA;
+}
+
+.mc {
+	height: 200px;
+	width: 25%;
+	text-align: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left: 9px;
+}
+
+.singer {
+	height: 200px;
+	width: 25%;
+	text-align: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left: 9px;
+}
+.band {
+	height: 200px;
+	width: 25%;
+	text-align: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left: 9px;
+}
+.model {
+	height: 200px;
+	width: 25%;
+	text-align: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left: 9px;
+}
+
+.slider {
+	margin-top: -50px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	box-sizing: border-box;
+	background-color: #FFFAFA;
+	margin-bottom: 100px;
+}
+
+.slide {
+	border:bold #000;
+	overflow: hidden;
+	width: 600px;
+	height: 320px;
+	margin-bottom: 25px;
+}
+
+.slide figure div{
+	width: 20%;
+	float: left;
+}
+
+.slide figure img {
+	float:left;
+}
+
+.slide figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 30s slidy infinite;
+
+}
+
+@keyframes slidy {
+
+	0%{left: 0%;}
+	10%{left: -100%;}
+	20%{left: -200%;}
+	30%{left: -300%;}
+	40%{left: -400%;}
+	50%{left: -500%;}
+	60%{left: -100%;}
+}
+
+.container {
+
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.ig{
+	border-radius: 40Px;
+	padding: 10px;
+	width: 285px;
+	height: 125px;
+	box-sizing: border-box;
+	
+
+}
+
+ a {
+ 	color:orange;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	text-decoration-color: none;
+	text-decoration: none;
+	font-style: none;
+}
+
+#footer{
+
+}
