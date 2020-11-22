@@ -13,7 +13,18 @@
 
 
 
+h1{
+	font-family: "montserrat-bold", sans-serif;
+    font-size: 5rem;
+    color: white;
+}
 
+h3{
+	font-family: "montserrat-bold", sans-serif;
+	font-size: 1.2rem;
+	color: black;
+
+}
 
 .logo {
 	color: #069370;
@@ -31,6 +42,14 @@
 
 nav {
 	float: right;
+	height: 80px;
+	background: none;
+	box-shadow: none;
+	border: none;
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 75px;
+	background-color:rgba(0, 0, 0, 0.411);
 }
 
 .clearfix {
@@ -51,7 +70,7 @@ nav ul li a {
 	margin: 10px 0;
 	padding: 10px 20px;
 	text-decoration: none;
-	color: #262626;
+	color: #ffffff;
 }
 
 nav ul li a.active,
@@ -109,6 +128,7 @@ img {vertical-align: middle;}
   .slideshow-container {
 	object-fit: cover;
 	margin: auto;
+	margin-top: -100px;
   }
   
   /* Next & previous buttons */
@@ -380,10 +400,30 @@ h4 {
 {
 	margin: auto;
 	padding: auto;
-	background-position: center;
-	
-	
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
+
+.clientlist-section
+{
+	background: #484445;
+	text-align: center;
+}
+
+.title h1 span{
+	color: #24A9E1;
+}
+
+.title h3{
+	color: white;
+	line-height: 0.5;
+
+}
+
+.clientlistimage img{
+	max-width: 100%;
+}
+
 /*---- end client list-----*/
 
 /*--- OUR COMPANY --*/
@@ -403,6 +443,10 @@ h4 {
 	font-family: "montserrat", sans-serif;
 }
 /*--- END OUR COMPANY --*/
+
+.team-title h1{
+	color: #24A9E1;
+}
 
  /*FOOTER*/
 footer {
@@ -529,17 +573,13 @@ footer {
 
 @media only screen and (max-width:800px) {
 	/* For tablets: */
-	.gambarclientlist {
-	  width: 80%;
-	  padding: 0;
-	}
 	.container {
 	  width: 100%;
 	}
   }
   @media only screen and (max-width:500px) {
 	/* For mobile phones: */
-	.menu, .gambarclientlist, .container {
+	.menu, .container {
 	  width: 100%;
 	}
   }
@@ -550,8 +590,6 @@ footer {
 	margin-right:0;
 	column-gap: 2px;
 	margin-left: 0;
-
-
 	}
 }
 
