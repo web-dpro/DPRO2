@@ -435,7 +435,7 @@ h4 {
 
 #ourcompany
 {
-	background-color: #d23422;
+	background-color: #66023C;
 	text-align: center;
 }
 
@@ -524,7 +524,7 @@ footer {
   
   /* footer social icons */
   .social-network a.icoInstagram:hover {
-	background-color: #dd2a7b;
+	background-color:#C13584
   }
   .social-network a.icoyt:hover {
 	background-color: Red;
