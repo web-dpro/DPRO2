@@ -431,6 +431,12 @@ h4 {
 /*---- end client list-----*/
 
 /*--- OUR COMPANY --*/
+
+#ourcompany
+{
+	background-color: #d23422;
+}
+
 #ourcompany .container
 {
 	margin: auto;
@@ -447,6 +453,11 @@ h4 {
 	font-family: "montserrat", sans-serif;
 }
 /*--- END OUR COMPANY --*/
+
+.team-member
+{
+	text-align: center;
+}
 
 .team-title h1{
 	color: #24A9E1;
