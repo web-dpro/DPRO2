@@ -1655,7 +1655,7 @@ text-align: center;
 
 .diding.nospace{margin-bottom:0;}
 
- .satu{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
+ .satu{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none; cursor: pointer;}
 .satu{width:31%;}
 
 

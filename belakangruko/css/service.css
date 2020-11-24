@@ -21,6 +21,7 @@
   cursor: pointer;
   transition: 0.4s;
 }
+
 .service:hover{
   background: #ddd;
 }
