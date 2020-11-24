@@ -500,8 +500,8 @@ footer {
   
   
   /* footer social icons */
-  .social-network a.icoFacebook:hover {
-	background-color: #3b5998;
+  .social-network a.icoInstagram:hover {
+	background-color: #dd2a7b;
   }
   .social-network a.icoyt:hover {
 	background-color: Red;
@@ -513,7 +513,7 @@ footer {
 	background-color:  black;
   }
   
-  .social-network a.icoFacebook:hover i,
+  .social-network a.icoInstagram:hover i,
   .social-network a.icoemail:hover i {
 	color: #fff;
   }
