@@ -432,10 +432,18 @@ h4 {
 
 /*--- OUR COMPANY --*/
 
+
 #ourcompany
 {
 	background-color: #d23422;
+	text-align: center;
 }
+
+.titlecompany h1 span
+{
+	color: #24A9E1;
+}
+
 
 #ourcompany .container
 {
