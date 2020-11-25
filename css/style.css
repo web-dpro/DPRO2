@@ -240,6 +240,8 @@ header {
 
 
 
+
+
 /*  ISI KONTEN */
 
 .kontener {
@@ -253,6 +255,42 @@ header {
 	column-gap: 40px;
 }
 
+@media only screen and (max-width:800px) {
+	/* For tablets: */
+	.kontener {
+		width: 800px;
+		margin-right:0;
+		column-gap: 2px;
+		margin-left: 0;
+	}
+  }
+  @media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.kontener {
+		width: 300px;
+		margin-right:0;
+		column-gap: 2px;
+		margin-left: 0;
+	}
+  }
+  @media only screen and (max-width:640px) {
+	/* For mobile phones: */
+	.kontener {
+		width: 300px;
+		margin-right:0;
+		column-gap: 2px;
+		margin-left: 0;
+	}
+  }
+  @media only screen and (max-width:280px) {
+	/* For mobile phones: */
+	.kontener .kolom {
+		width: 200px;
+		margin-right:0;
+		column-gap: 1px;
+		margin-left: 0;
+	}
+  }
 
 
 
@@ -373,6 +411,15 @@ h4 {
 	background: #333;
 	margin: 20px auto;
 }
+
+
+  @media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.aborder {
+		width: 200px;
+	}
+  }
+
   
 .gallery-section .gallery{
 	display: flex;
@@ -442,7 +489,31 @@ h4 {
 .titlecompany h1 span
 {
 	color: #24A9E1;
+	line-height: 0.5;
+	margin-bottom: .5rem;
+	font-weight: 500;
+	font-size:80px;
 }
+
+
+@media only screen and (max-width:800px) {
+	/* For tablets: */
+	.titlecompany h1 span {
+		font-size:50px;
+	}
+  }
+  @media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.titlecompany h1 span {
+		font-size:50px;
+	}
+  }
+  @media only screen and (max-width:640px) {
+	/* For mobile phones: */
+	.titlecompany h1 span {
+		font-size:50px;
+	}
+  }
 
 
 #ourcompany .container
@@ -470,6 +541,14 @@ h4 {
 .team-title h1{
 	color: #24A9E1;
 }
+
+@media (max-width: 653px) {
+	.test123 {
+		margin: auto;
+	}
+}
+
+
 
  /*FOOTER*/
 footer {
@@ -606,6 +685,9 @@ footer {
 	  width: 100%;
 	}
   }
+
+  
+  
    
   @media only screen and (max-width:550px) {
 .kolom, .kontener {
@@ -615,6 +697,7 @@ footer {
 	margin-left: 0;
 	}
 }
+
 
 .test123{
 	width: 250px;
