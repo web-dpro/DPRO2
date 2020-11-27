@@ -179,6 +179,13 @@
      margin: 20px auto;
 }
 
+@media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.aborder {
+		width: 200px;
+	}
+  }
+
 
 /**-- heading section --**/
  .main_heading {
