@@ -264,7 +264,20 @@ header {
 		margin-left: 0;
 	}
   }
+
+ 
+
+
   @media only screen and (max-width:500px) {
+	/* For mobile phones: */
+	.kontener  {
+		width: 300px;
+		margin-right:0;
+		column-gap: 2px;
+		margin-left: 0;
+	}
+  }
+  @media only screen and (max-width:551px) {
 	/* For mobile phones: */
 	.kontener {
 		width: 300px;
@@ -273,7 +286,7 @@ header {
 		margin-left: 0;
 	}
   }
-  @media only screen and (max-width:640px) {
+  @media only screen and (max-width:991px) {
 	/* For mobile phones: */
 	.kontener {
 		width: 300px;
@@ -291,6 +304,20 @@ header {
 		margin-left: 0;
 	}
   }
+
+  
+
+  @media only screen and (max-width:1021px) {
+	/* For mobile phones: */
+	.kontener .kolom {
+		width: 200px;
+		margin-right:0;
+		column-gap: 1px;
+		margin-left: 0;
+	}
+  }
+
+  
 
 
 
