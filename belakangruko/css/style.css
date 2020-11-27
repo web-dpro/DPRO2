@@ -186,6 +186,27 @@
 	}
   }
 
+  @media only screen and (max-width:320px) {
+	/* For mobile phones: */
+	.aborder {
+		width: 50px;
+	}
+  }
+
+  @media only screen and (max-width:280px) {
+	/* For mobile phones: */
+	.aborder {
+		width: 2px;
+	}
+  }
+
+  @media only screen and (max-width:1024px) {
+	/* For mobile phones: */
+	.aborder {
+		width: 500px;
+	}
+  }
+
 
 /**-- heading section --**/
  .main_heading {
