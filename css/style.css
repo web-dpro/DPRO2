@@ -11,6 +11,14 @@
 	box-shadow: 0 2px 5px rgba(0,0,0, .2);
 }*/
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+}
 
 
 h1{
@@ -23,7 +31,13 @@ h3{
 	font-family: "montserrat-bold", sans-serif;
 	font-size: 1.2rem;
 	color: black;
+}
 
+#header {
+	font-family: "montserrat-bold", sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: black;
 }
 
 .logo {
@@ -128,7 +142,6 @@ img {vertical-align: middle;}
   .slideshow-container {
 	object-fit: cover;
 	margin: auto;
-	margin-top: -100px;
   }
   
   /* Next & previous buttons */
@@ -202,45 +215,12 @@ img {vertical-align: middle;}
 	color: white;
     font-family: "montserrat-bold", sans-serif;
   }
-/*--- end navigation --*/
-       /*isi*/
-/*--- section welcome --*/
-   /*isi*/
-/*---end section welcome --*/
-/*--- Client List --*/
-      /*isi*/
-/*--- End Client List --*/ 
-/*--- OUR COMPANY --*/
-
-*{
-	margin: 0;
-	padding: 0;
-}
-body {
-	background-color: #D3D3D3;
-	font-family: 'Baloo 2', cursive;
-	font-size: 14px;
-}
-
-body h4{
-	font-family: 'Baloo 2', cursive;
-	font-size: 19px;
-}
 
 header {
 	margin-top: 0;
 	margin-bottom: 70px;
 
 }
-
-.kotakoc
-{
-	height: 300px;
-}
-
-
-
-
 
 /*  ISI KONTEN */
 
@@ -264,10 +244,6 @@ header {
 		margin-left: 0;
 	}
   }
-
- 
-
-
   @media only screen and (max-width:500px) {
 	/* For mobile phones: */
 	.kontener  {
@@ -304,10 +280,7 @@ header {
 		margin-left: 0;
 	}
   }
-
-  
-
-  @media only screen and (max-width:1021px) {
+  @media only screen and (max-width:1024px) {
 	/* For mobile phones: */
 	.kontener .kolom {
 		width: 200px;
@@ -353,27 +326,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62e4f5', end
 	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 
-/* TULISAN2 CANTIK */
-
-
-a {
-	text-decoration-color: none;
-	text-decoration-line: none;
-	text-decoration-style: none;
-	color :#fff;
-}
-
-h4 {
-	color:#000;
-	font-family: 'ballio';
-}
-
-
 /* ABOUT DPRO */
 
 .about-area{
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 1rem;
 	background-color: #009ee1;
 	color: black;
 	position: relative;
@@ -478,8 +435,8 @@ h4 {
 {
 	margin: auto;
 	padding: auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 6.5rem;
+	padding-bottom: 3.125rem;
 }
 
 .clientlist-section
@@ -511,6 +468,26 @@ h4 {
 {
 	background-color: #66023C;
 	text-align: center;
+}
+
+.kotakoc
+{
+	color: black;
+	height: 250px;
+}
+
+.kotakoc h2{
+	font-size: 1.5rem;
+}
+
+.kotakoc p{
+	font-family: "lora-regular", serif;
+	color:white;
+}
+
+.titlecompany {
+	padding-top: 6.5rem;
+	padding-bottom: 3.125rem;
 }
 
 .titlecompany h1 span
@@ -549,14 +526,6 @@ h4 {
 }
 .w3-wide{letter-spacing:4px}
 .w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
-
-#ourcompany .kolom p
-{
-	font-family: "lora-regular", serif;
-}
-#ourcompany .kolom h4
-{
-	font-family: "montserrat", sans-serif;
 }
 /*--- END OUR COMPANY --*/
 
@@ -587,14 +556,25 @@ footer {
   }
   
   footer a {
-	color: #fff;
+    font-family: "lora-regular", serif;
+	color: white;
 	font-size: 14px;
 	transition-duration: 0.2s;
   }
   
+  footer h1 {
+	font-size: 1rem;
+	color: white;
+  }
+
   footer a:hover {
 	color: #FA944B;
 	text-decoration: none;
+  }	
+
+  footer h2 {
+    font-family: "lora-regular", serif;
+	font-size: 1rem;
   }
   
   .copy {
