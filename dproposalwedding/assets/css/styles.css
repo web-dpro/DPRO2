@@ -185,3 +185,16 @@ nav.navbar.navbar-default{
   color: black;
   background-color: #cf7b7e;
 }
+
+#more{
+  display: none;
+}
+
+button{
+  background-color: #cf7b7e;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 10px;
+  padding: 5px;
+}
