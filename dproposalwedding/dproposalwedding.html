@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- favicon -->
   <link rel="icon" href="assets/img/favicon3.ico" />
@@ -100,11 +101,13 @@
           <div class="thumbnail"><img src="assets/img/wo2.JPG">
           <div class="caption">
             <h3 class="text-center">Wedding Organizer Full Day</h3>
+            <br>
             <h5>Spesifikasi :</h5>
             <p class="text-center">Membantu mempersiapkan kebutuhan pengantin dari 3-4 bulan sebelum hari H</p>
             <p class="text-center">Pertemuan secara berkala</p>
             <p class="text-center">Konsultasi pemilihan vendor</p>
             <p class="text-center">Pembuatan rundown acara sampai selesai</p>
+            <span id="dots"></span><span id="more">
             <p class="text-center">Mengatur semua technical meeting</p>
             <p class="text-center">Mengontrol dan berkoordinasi dengan semua vendor sampai selesai</p>
             <p class="text-center">Mengatur jalannya acara pada hari H</p>
@@ -117,6 +120,8 @@
             <p class="text-center">Pendamping CPW (Hari H)</p>
             <p class="text-center">Penjemputan CPP (Hari H)</p>
             <p class="text-center">Stopper</p>
+            </span>
+            <button class="read">read more</button>
           </div>
           </div>
         </div>
@@ -173,6 +178,7 @@
           <div class="thumbnail"><img src="assets/img/photo 2.JPG">
           <div class="caption">
             <h3 class="text-center">Gold Package</h3>
+            <br>
             <h5>Spesifikasi :</h5>
             <p class="text-center">32 Page hard cover magazine album kayu + lembar vinyl (200 photo)</p>
             <p class="text-center">1 DVD pemberkatan</p>
@@ -185,6 +191,7 @@
             <p class="text-center">1 Lighting for photo & video</p>
             <p class="text-center">1 Drone DJI Phantom 4 (1 baterai)</p>
             <p class="text-center">1 GO PRO camera</p>
+            <span id="dots"></span><span id="more">
             <p class="text-center">3 Menit video + photo slideshow (pre-wed & pemberkatan)</p>
             <p class="text-center">10 Pages small hard cover (untuk 20 photo pre-wed/reception)</p>
             <p class="text-center">1 Album hard cover</p>
@@ -202,6 +209,8 @@
             <p class="text-center">Same day edit video</p>
             <p class="text-center">Screen projector 3x4m 5000 lumens + crew</p>
             <p class="text-center">Make up artist for prewedding</p>
+            </span>
+            <button class="read">read more</button>
           </div>
           </div>
         </div>
@@ -209,6 +218,7 @@
           <div class="thumbnail"><img src="assets/img/photo1.JPG">
           <div class="caption">
             <h3 class="text-center">Wedding Day Only</h3>
+            <br>
             <h5>Spesifikasi :</h5>
             <p class="text-center">1 Album hard cover, 32 Page hard cover magazine album kayu + lembar vinyl 
               (200 photo)</p>
@@ -223,9 +233,12 @@
             <p class="text-center">Cinematic + candid documentation</p>
             <p class="text-center">1 Camera nikon</p>
             <p class="text-center">1 Camera NX500</p>
+            <span id="dots"></span><span id="more">
             <p class="text-center">1 Lighting for photo & video</p>
             <p class="text-center">1 Drone DJI Phantom 4 (1 baterai)</p>
             <p class="text-center">1 GO PRO camera</p>
+            </span>
+            <button class="read">read more</button>
           </div>
           </div>
         </div>
@@ -251,6 +264,19 @@
           </div>
           </div>
         </div>
+        <script>
+          $(document).ready(function(){
+            $(".read").click(function(){
+              $(this).prev().toggle();
+              $(this).siblings('.dots').toggle();
+              if($(this).text()=='read more'){
+                $(this).text('read less');
+              }else{
+                $(this).text('read more');
+              }
+            });
+          });
+        </script>
       </div>
     </div>
   </div>
@@ -280,8 +306,7 @@
     <div class="container footer">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <h1> <a href="#background"><img src="assets/img/logo wedding 1.png" width="100px"></a></h1>
-        <h3>Quotes</h3>
-        <p>Happy Wedding...</p>
+        <h3>You dream it, We'll make it</h3>
       </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div>
