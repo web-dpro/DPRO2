@@ -30,6 +30,13 @@
       <link rel="stylesheet" href="css/service.css">
       
 
+   <!-- Bootstrap core CSS -->
+   
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon 
@@ -42,7 +49,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
    <!-- body -->
-   <body class="main-layout home_page">
+   <body class="main-layout home_page" scrollspy="scroll" data-target=".main-menu" data-offset="50">
 
       <!-- loader  
       <div class="loader_bg">
@@ -70,6 +77,7 @@
                            <nav class="main-menu">
                               <ul class="menu-area-main">
                                  
+                                 <li> <a href="#home">HOME</a> </li>
                               <!-- <li class="active"> !--> <li> <a href="#about">ABOUT</a> </li>
                                  <li><a href="#toolsprice">PACKAGE</a></li>
                                  <li><a href="#service">SERVICE</a></li>
@@ -82,17 +90,19 @@
                </div>
             </div>
          </div>
+
+         
          
          <!-- end header inner -->
       </header>
       <!-- end header -->
-      <section class="slider_section">
-         <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
-            <div class="carousel-inner">
+      <section class="slider_section" id="home">
+         <div id="myKarusel" class="karusel slide banner-main" data-ride="karusel">
+            <div class="karusel-inner">
                
                   <img class="first-slide" src="images/a.jpg" style="height: 100%; width: 100%;" >
                   <div class="container">
-                     <div class="carousel-caption relative">
+                     <div class="karusel-caption relative">
                         <h1 class="welcome">Welcome<br> To Blakang Ruko<br> Page!</h1>
                         <p class="welcome2">Menyediakan & Melayani Sewa Kebutuhan Peralatan Entertainment </p>
                         <div class="button_section"> <a class="main_bt" href="../index.html">D'pro Jakarta</a>  </div>
@@ -116,7 +126,7 @@
       </section>
       <!-- about -->
       <section id="about">
-      <div class="about">
+      <div class="about" id="container-fluid">
          <div class="container">
             <div class="row">
                <div class="col-md-10 offset-md-1">
@@ -145,7 +155,7 @@
 
             <!--service -->
             <section id="service">
-               <div class="Books">
+               <div class="Books" id="container-fluid">
                   <div class="container">
                      <div class="row">
                         <div class="col-md-10 offset-md-1">
@@ -208,7 +218,7 @@
 
       <!-- Tools price / package -->
       <section id="toolsprice">
-      <div class="Library">
+      <div class="Library" id="container-fluid">
          <div class="container">
             <div class="row">
                <div class="col-md-10 offset-md-1">
