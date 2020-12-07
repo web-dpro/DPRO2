@@ -62,12 +62,12 @@ $(function () {
 		$('select').niceSelect();
 	});
 
-	/* Owlkarusel - Blog Post slider
+	/* Owlcarousel - Blog Post slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
 	$(document).ready(function () {
-		var owl = $('.karusel-slider-post');
-		owl.owlkarusel({
+		var owl = $('.carousel-slider-post');
+		owl.owlcarousel({
 			items: 1,
 			loop: true,
 			margin: 10,
@@ -77,12 +77,12 @@ $(function () {
 		});
 	});
 
-	/* Owlkarusel - Banner Rotator Slider
+	/* Owlcarousel - Banner Rotator Slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
 	$(document).ready(function () {
 		var owl = $('.banner-rotator-slider');
-		owl.owlkarusel({
+		owl.owlcarousel({
 			items: 1,
 			loop: true,
 			margin: 10,
@@ -98,12 +98,12 @@ $(function () {
 
 	
 
-	/* Owlkarusel - Product Slider
+	/* Owlcarousel - Product Slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
 	$(document).ready(function () {
 		var owl = $('#product-in-slider');
-		owl.owlkarusel({
+		owl.owlcarousel({
 			loop: true,
 			nav: true,
 			margin: 10,
@@ -365,7 +365,7 @@ $(function () {
 	/* Product slider 
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	// optional
-	$('#blogkarusel').karusel({
+	$('#blogcarousel').carousel({
 		interval: 5000
 	});
 
