@@ -346,10 +346,15 @@
     .footer .Subscribe {
         padding: 10px 22px;
     }
+    .footer .pesan
+    {
+        text-align: center;
+    }
     .aborder{
-        width: 300px;
+        width: 100px;
         height: 4px;
         background: #333;
         margin: 20px auto;
     }
+    
 }

@@ -173,37 +173,24 @@
 }
 
 .aborder{
-     width: 800px;
-     height: 4px;
-     background: #333;
-     margin: 20px auto;
+	width: 360px;
+	height: 4px;
+	background: #333;
+	margin: 20px auto;
 }
 
-@media only screen and (max-width:500px) {
+
+@media only screen and (max-width:575px) {
+	/* For mobile phones: */
+	.aborder {
+		width: 100px;
+	}
+  }
+
+  @media only screen and (max-width:500px) {
 	/* For mobile phones: */
 	.aborder {
 		width: 200px;
-	}
-  }
-
-  @media only screen and (max-width:320px) {
-	/* For mobile phones: */
-	.aborder {
-		width: 50px;
-	}
-  }
-
-  @media only screen and (max-width:280px) {
-	/* For mobile phones: */
-	.aborder {
-		width: 2px;
-	}
-  }
-
-  @media only screen and (max-width:1024px) {
-	/* For mobile phones: */
-	.aborder {
-		width: 500px;
 	}
   }
 
