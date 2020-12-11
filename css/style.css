@@ -9,6 +9,9 @@ body {
 
 }
 
+.chatbot{
+	float:right;
+}
 
 h1{
 	font-family: "montserrat-bold", sans-serif;
