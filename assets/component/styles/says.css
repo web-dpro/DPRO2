@@ -19,6 +19,14 @@
   transition: all 200ms;
   box-sizing: content-box;
 }
+
+.bubble.say {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+
 .bubble .bubble-content {
   transition: opacity 150ms;
 }
