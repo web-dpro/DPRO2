@@ -503,6 +503,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62e4f5', end
 
 .team-title h1{
 	color: #24A9E1;
+	padding-top: 6.5rem;
+	padding-bottom: 3rem;
 }
 
 @media (max-width: 653px) {
