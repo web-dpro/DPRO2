@@ -17,6 +17,11 @@
   min-width: 350px;
  */
 }
+
+.bubble.say {
+  min-width: 50%;
+}
+
 .bubble.reply .bubble-content {
   transition: all 200ms;
 }
@@ -35,7 +40,7 @@
   text-decoration: none;
   word-break: normal;
   box-sizing: content-box;
-  min-width: 50%;
+  max-width: 70%;
   
   animation-name: "animate-reply";
   animation-play-state: paused;
