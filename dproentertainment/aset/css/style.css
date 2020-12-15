@@ -1,355 +1,352 @@
-/* RESET */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    font-family: sans-serif;
 }
 
 
-
-								/*START*/
-
-body {
-	background-color: orange;
+        /*BANER*/
+.baner{
+    max-width: 100%;
+    position: relative;
 }
-					/* gambar atas */
-
-.top {
-		max-width: 100%;
-		max-height: 50%;
+.baner img {
+    max-width: 100%;
+    pos
 }
-
-					/* navbar */
-.nvb {
-	padding: 10px;
-	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
-	border-radius: 15px;
-	display: flex;
-	position: relative;
-	width: 60%;
-	height: 65px;
-	background-color: white;
-	margin: auto;
-	margin-top: -40px;
-	text-align: center;
-	align-items: center;
-	justify-content: space-around;
-
+        /* NAVBAR */
+.nav {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 12px;
+    margin-top: -45px;
+    width: 70%;
+    height: 80px;
+    background-color:white;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
 }
 
-.nvb .n h1 {
-	display: inline-block;
-	position: relative;
-	font-size: 17px;
-	color:	#7615a3;
-	font-family: 'Roboto', sans-serif;
+.icon {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+.ticon {
+    font-size: 14px;
+    float: left;
+    position: relative;
+    
 }
 
-.n {
-	display: flex;
-	max-width: 100%;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
+.nav a {
+    text-decoration: none;
 }
-
-.n img{
-	max-width: 100%;
+.icon:hover{
+    margin-top: -5px;
 }
-
-.n:hover{
-	margin-bottom: -20px;
-	
-}
-
-				/* about */
+    /* ABOUT */
 
 #about {
-
-	display: flex;
-	padding: 20px;
-	justify-content: space-between;
-	margin-bottom: 70px;
-	margin-top: 40px;
-
+    margin-top: 70px;
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gbt {
+    max-width: 100%;
+}
+.text {
+    width:50%;
+    text-align: left;
 }
 
-.isi {
-	position: relative;
-	float: right;
-	padding: 20px;
-	height: 300PX;
-	width:700PX;
-	line-height: 2;
+.text h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: purple;
+}
+.text p {
+    line-height: 2;
+    font-size: 19px;
 }
 
-.isi h3{
-	font-family: 'Roboto', sans-serif;
-	font-size: 38px;
-	color: purple;}
-.isi p{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	color: black;
-}
-
-.isi h2{
-	font-family: 'Roboto', sans-serif;
-	font-size: 35px;
-	color:purple;
-}
-
-
-					/* talent */
+        /* TALENT */
 
 #talent {
-	display: flex;
-	max-height: 620px;
-	padding: 20px;
-	background-color: white;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    gap: 20px;
 }
 
-.isian {
-	padding: 30px;
-	max-width: 20%; 
-	transition: 0.3s ease all;
+.card {
+    width: 25%;
+    margin-right: 10PX;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 0 30px 30px 0px orange;
+    margin-top: -5px;
+}
+.card p {
+    color: gray;
+    line-height: 2;
+    text-align: center;
 }
 
-.isian h2 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	color:orange;
-}
+            /* GALERY */
+  
+#galeri{
 
-.isian p {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 2;
-	font-weight: bold;
-	font-size: 16px;
-}
+    display: flex;
+    justify-content: center;
+    gap:7px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:50px;
+ }
 
-.judul {
-	
-}
-
-.isian:hover{
-	box-shadow: 0 30px 30px 0px orange;
-	margin-top: -5px;
-}
-
-
-			/* galerry */
-
-
-.boxg{
-	padding: 20px;
-	box-sizing: border-box;
-	justify-content: center;
-	height: 470px;
-	width: 650px;
-	background-color: #DC143C;
-	display: flex;
+.titgal h5 {
+    font-size: 36px;
+    font-weight: bold;
+    color: purple;
+} 
+.cgbr {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:7px;
 
 }
 
-.viewg{
-	display: flex;
-	justify-content: center;
-	padding: 20px;
-	box-sizing: border-box;
-	height: 470px;
-	width: 650px;
-	background-color: #7615a3;
-}
-
-		/* galery */
-
-#galery{
-	height: 750px;
-	display: flex;
-	justify-content: center;
-	gap: 7px;
-	align-items: center;
-	flex-wrap: wrap;
-	padding:50px;
-	box-sizing: border-box;
-}
 .gbr {
-	width: 24%;
-}
-.gbr img {
-	width: 100%;
-
+    width: 30%;
 }
 
-			/* lokasi */
+ .gbr img {
+     width: 100%;
+}
 
-.alamat{
-	display: flex;
+#kontak{
+    display: flex;
 	background-color:white;
-	padding: 70px;
+    padding: 70px;
+    flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
-	align-items: center;
+    align-items: center;
+    margin-bottom: 80px;
+    
 }
 
-.lokasi{
-	width: 400px;
-	line-height: 25px;
+.alamat {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .alamat a {
-	text-decoration: none;
+    text-decoration: none;
 }
-.alamat .lokasi h4 {
-	font-family: 'Roboto', sans-serif;
+.lgb{
+    width: 100%;
 }
-
-		/* contact us */
-
-#kontak {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding-bottom: 30px;
-	background-color: white;
+.lgb img{
+    width: 30%;
 }
 
-.tombol {
-	padding: 10px;
-	border-radius: 20px;
-	width: 190px;
-	color: orange;
+.media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  
 }
 
-#kontak a {
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
+.gbm {
+    width:100%;
 }
-
-		/* scroll up */
+.gbm img {
+    width: 100%;
+}
 
 .gotopbtn{
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	border-radius: 25px;
-	background: #DC143C;
-	bottom: 40px;
-	right: 50px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background: purple;
+    bottom: 40px;
+    border-radius: 50px;
+    right: 50px;
   
-	text-decoration: none;
-	text-align: center;
-	line-height: 50px;
-	color:orange;
-	font-size: 22px;
-  }
-
-  /* responsive */
-
-  @media screen and (max-width:680px){
-	  .top{
-		  height: 20%;
-		  width: 100%;
-	  }
-	  		/* navbar */
-	  .nvb {
-		  height: 80px;
-		  width: 85%;
-	  }
-	  .nvb .n h1 {
-		  font-size: 8px;
-	  }
-	  .n{
-		  width: 300px;
-		  flex-wrap: wrap;
-	  }
-	  .abt {
-		  display: inline;
-		 
-	  }
-
-	  .isi {
-		  position: relative;
-		  line-height: normal;
-		  display:block;
-		  width: 500px;
-		  height: 500px;
-	  }
-	  .isi h2{
-		  
-			  font-size: 12px;
-		  }
-	  .isi p {
-		  font-size: 9px;
-	  }
-	  .isi h3 {
-		  font-size: 12px;
-	  }
-	  .n img{
-		width: 70%;
-	  }
-			/* about */
-	  
-	  #about img {
-		  width: 100%;
-		  display:inline-block;
-		  
-
-	  }
-
-	  #talent{
-		height:1500px;
-		width: 100%;
-	  }
-	  .isian {
-		  display:inline-block;
-		  width: 100%;
-		  height: 20%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 26px;
+}
   
-	  }
-  }
-	
+            /* nav buttom */
+
+
+
+
+                /* responsiv */
+
+        @media screen and (max-width: 580px){
+
+
+    .nav {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        border-radius: 0;
+        bottom: 0;
+        width: 100%;
+        height: 120px;
+        padding: 5px;
+        
+        
+       
+    }
+    .icon {
+     
+        margin-left: 20px;
+    }
+    .icon img{
+        width: 50%;
+    }
+    .ticon h2 {
+        margin-left: 32px;
+        font-size: 16px;
+    }
+    /* about */
+    
+    #about {
+        flex-wrap: wrap;
+        margin-top: -15px;
+    }
+
+    .gbt img {
+        width: 70%;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+    .text h4 {
+        font-size: 18px;
+    }
+    .text p {
+        line-height: normal;
+        font-size: 14px;
+        text-align: left;
+    }
+        /* talent */
+
+    #talent {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .card{
+        width: 100%;
+        display: flex;
+    }
+
+    .kiri{
+       
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        float: left;
+        padding: 5px;
+    }
+    
+    .crdg{
+        float: left;
+    }
+    
+    .crdg img {
+        float: left;
+    }
+    .ct{
+        position: relative;
+        font-size: 14px;
+        float: left;
+        
+    }
+    .tt {
+       margin-left: 20px;
+    }
+    .tt p {
+        font-size: 12px;
+        text-align: left;
+    }
+   
+        /* galery */
+
+    #galeri{
+        justify-content: center;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .cgbr {
+        margin-top: 10px;
+        display: inline;
+        justify-content: center;
+        gap: 5px;
+    }
+    .gbr{
+        margin-top: 10px;
+        float: left;
+        width: 45%;
+        margin-left: 15px;
+    }
+    .gbr img {
+        width: 100%;
+    }
+
+    .lgb img {
+        width: 70%;
+    }
+    .ata h4 {
+        font-size: 12px;
+        line-height: 2;
+    }
+    .media {
+        gap:0;
+    }
+    .gbm {
+        width: 50%;
+    }
+    .gotopbtn {
+        display: none;
+    }
+    .icon:hover{
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.8);
+    }
+}
